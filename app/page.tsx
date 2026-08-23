@@ -1,10 +1,18 @@
 "use client"
-import MultistepForm from "./components/Forms/MultistepForm";
+
+import FileUpload from "./components/FileUpload/FileUpload";
+import MultistepForm from "./components/Form_Wizard/MultistepForm";
+import OTPParent from "./components/OTP_Input/OTP_Parent";
+import TodoParent from "./components/TODO_app/Todo_Parent";
+
 
 export default function Home() {
   return (
     <div>
       <MultistepForm/>
+      <OTPParent/>
+      <FileUpload/>
+      <TodoParent/>
     </div>
   );
 }
