@@ -24,3 +24,89 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.App{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.search-input{
+  width: 500px;
+  padding: 5px;
+  border: 2px solid blue;
+
+}
+
+.result-container{
+  width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  max-height: 500px;
+  overflow-y: scroll;
+
+}
+
+.result{
+  display: block;
+  padding: 5px;
+}
+
+.result:hover{
+  background-color: grey;
+  cursor: pointer
+}
+
+.pagination{
+  /* width: 500px; */
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.products-container{
+  display: flex;
+  flex-wrap: wrap
+}
+
+.product-card{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+.product-img{
+  height: 200px;
+  width: 200px
+}
+
+.pageNumber-container{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageNumbers{
+  margin: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.active-page{
+  background-color: pink;
+  margin: 5px;
+  padding: 5px
+}
