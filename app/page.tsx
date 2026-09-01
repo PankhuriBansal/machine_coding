@@ -7,6 +7,7 @@ import TodoParent from "./components/TODO_app/Todo_Parent";
 import AutComplete from "./components/Autcomplete/Autcomplete";
 import Pagination from './components/Pagination/Pagination';
 import InfiniteScroller from './components/InfiniteScroll/InfiniteScroll'
+import MultiSelect from './components/MultiSelect_Input/MultiSelect'
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
       <TodoParent/>
       <AutComplete/>
       <Pagination/>
-      <InfiniteScroller/>
+      {/* <InfiniteScroller/> */}
+      <MultiSelect/>
     </div>
   );
 }
