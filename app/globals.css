@@ -179,3 +179,45 @@ body {
     /* width: 20px; */
   }
 }
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+  gap: 10px;
+}
+
+.accordion-item {
+  display: flex;
+  /* align */
+  /* justify-content: center; */
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.accordion-title {
+  display: flex;
+
+  background-color: gray;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20;
+  font-weight: 600;
+}
+
+.accordion-content {
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.right{
+  float: right;
+}

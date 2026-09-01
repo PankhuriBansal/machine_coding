@@ -8,6 +8,7 @@ import AutComplete from "./components/Autcomplete/Autcomplete";
 import Pagination from './components/Pagination/Pagination';
 import InfiniteScroller from './components/InfiniteScroll/InfiniteScroll'
 import MultiSelect from './components/MultiSelect_Input/MultiSelect'
+import Accordion from './components/Accordion/Accordion';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Pagination/>
       {/* <InfiniteScroller/> */}
       <MultiSelect/>
+      <Accordion/>
     </div>
   );
 }
