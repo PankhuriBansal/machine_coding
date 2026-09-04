@@ -1,0 +1,41 @@
+
+.home{
+    display: flex;
+}
+
+.productContainer{
+    display: flex;
+    width: 76%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.filters{
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+    height: 86vh;
+    >span{
+        padding-bottom: 30px
+    }
+}
+
+.title{
+    font-size: 30px
+}
+
+.products{
+    height: 400px;
+    width: 30%;
+    margin:  10px;
+}
+
+.card-img{
+    width: 100%;
+    height: 150px
+}
