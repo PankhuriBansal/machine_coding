@@ -8,7 +8,7 @@ import {cartReducer} from "./Reducers"
 export const Cart = createContext([]);
 faker.seed(99); ///so data does not chanfe consistently
 
-const Context = ({ children }) => {
+const Context = ({  }) => {
   const products = [...Array(20)].map(() => ({
     id: faker.string.uuid(),
     name: faker.commerce.productName(),
@@ -26,7 +26,7 @@ const Context = ({ children }) => {
 
   return (
     <Cart.Provider value={{state,dispatch}}>
-      {children}
+      {/* {children} */}
     </Cart.Provider>
   );
 };

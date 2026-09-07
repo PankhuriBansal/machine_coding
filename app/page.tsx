@@ -12,6 +12,7 @@ import Accordion from './components/Accordion/Accordion'
 import ShoppingCart from './components/Shopping_Cart/ShoppingCart'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Context from "./components/Shopping_Cart/context/Context"
+import NestedComments from "./components/NestedComments/NestedComments"
 
 export default function Home () {
   return (
@@ -28,6 +29,7 @@ export default function Home () {
       <Context>
         <ShoppingCart />
       </Context>
+      <NestedComments/>
     </div>
   )
 }
