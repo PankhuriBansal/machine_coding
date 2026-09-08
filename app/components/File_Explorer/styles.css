@@ -1,0 +1,28 @@
+.App{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container{
+    text-align: left;
+    /* padding: 10px */
+    padding-left: 20px;
+    /* border: 1px solid black; */
+    /* max-width: 100px;
+     */
+}
+
+.add-file-icon{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.delete-file-btn{
+    width: 20px;
+    height: 20px;
+}
+
+.buttons-div{
+    display: flex;
+}

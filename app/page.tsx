@@ -13,6 +13,7 @@ import ShoppingCart from './components/Shopping_Cart/ShoppingCart'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Context from "./components/Shopping_Cart/context/Context"
 import NestedComments from "./components/NestedComments/NestedComments"
+import App from "./components/File_Explorer/App"
 
 export default function Home () {
   return (
@@ -30,6 +31,7 @@ export default function Home () {
         <ShoppingCart />
       </Context>
       <NestedComments/>
+      <App/>
     </div>
   )
 }
