@@ -14,6 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Context from "./components/Shopping_Cart/context/Context"
 import NestedComments from "./components/NestedComments/NestedComments"
 import App from "./components/File_Explorer/App"
+import Toasts from "./components/Toasts/Toast"
 
 export default function Home () {
   return (
@@ -32,6 +33,7 @@ export default function Home () {
       </Context>
       <NestedComments/>
       <App/>
+      <Toasts/>
     </div>
   )
 }
