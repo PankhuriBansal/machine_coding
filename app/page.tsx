@@ -11,11 +11,12 @@ import MultiSelect from './components/MultiSelect_Input/MultiSelect'
 import Accordion from './components/Accordion/Accordion'
 import ShoppingCart from './components/Shopping_Cart/ShoppingCart'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Context from "./components/Shopping_Cart/context/Context"
-import NestedComments from "./components/NestedComments/NestedComments"
-import App from "./components/File_Explorer/App"
-import Toasts from "./components/Toasts/Toast"
-import Carousel from "./components/Image_Carousel/Carousel"
+import Context from './components/Shopping_Cart/context/Context'
+import NestedComments from './components/NestedComments/NestedComments'
+import App from './components/File_Explorer/App'
+import Toasts from './components/Toasts/Toast'
+import Carousel from './components/Image_Carousel/Carousel'
+import Rating from './components/Star_Rating/Rating'
 
 export default function Home () {
   return (
@@ -32,10 +33,11 @@ export default function Home () {
       <Context>
         <ShoppingCart />
       </Context>
-      <NestedComments/>
-      <App/>
-      <Toasts/>
-      <Carousel/>
+      <NestedComments />
+      <App />
+      <Toasts />
+      <Carousel />
+      <Rating maxStars={10} />
     </div>
   )
 }

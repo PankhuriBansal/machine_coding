@@ -1,0 +1,16 @@
+.star-component {
+  padding: 15px
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.star{
+    height: 40px;
+    width: 40px
+}
