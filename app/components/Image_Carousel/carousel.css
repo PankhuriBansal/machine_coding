@@ -1,0 +1,40 @@
+.carousel-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 400px;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 1000px; */
+  border: 2px solid red;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+}
+
+.carousel-image {
+  height: 200px;
+  width: 500px;
+}
+
+.carousel-component {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+
+.highlighted {
+  /* background-color: red; */
+  display: block;
+}
+
+.inactive {
+  display: none;
+}

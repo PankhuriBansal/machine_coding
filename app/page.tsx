@@ -15,6 +15,7 @@ import Context from "./components/Shopping_Cart/context/Context"
 import NestedComments from "./components/NestedComments/NestedComments"
 import App from "./components/File_Explorer/App"
 import Toasts from "./components/Toasts/Toast"
+import Carousel from "./components/Image_Carousel/Carousel"
 
 export default function Home () {
   return (
@@ -34,6 +35,7 @@ export default function Home () {
       <NestedComments/>
       <App/>
       <Toasts/>
+      <Carousel/>
     </div>
   )
 }

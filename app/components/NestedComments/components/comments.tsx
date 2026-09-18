@@ -52,7 +52,7 @@ const Comment = ({
         <p className='comment-content'>{comment.content}</p>
         <p className='comment-info'>Votes: {comment.votes}</p>
         <p className='comment-info'>
-          {new Date(comment.timestamp).toLocaleString()}
+          {/* {new Date(comment.timestamp).toLocaleString()} */}
         </p>
       </> : (
         <div>
