@@ -17,6 +17,7 @@ import App from './components/File_Explorer/App'
 import Toasts from './components/Toasts/Toast'
 import Carousel from './components/Image_Carousel/Carousel'
 import Rating from './components/Star_Rating/Rating'
+import Poll from "./components/Voting_Poll/Poll";
 
 export default function Home () {
   return (
@@ -38,6 +39,7 @@ export default function Home () {
       <Toasts />
       <Carousel />
       <Rating maxStars={10} />
+      <Poll/>
     </div>
   )
 }

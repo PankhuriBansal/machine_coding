@@ -1,0 +1,36 @@
+.voting-poll-component{
+    padding: 25px;
+}
+.voting-poll-buttons{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 80px
+}
+
+.voting-button{
+    height: 50px;
+    background: blue;
+    width: 200px;
+    color: white;
+    border-radius: 12px;
+}
+
+.voting-option{
+    display: flex;
+    justify-content: space-between
+}
+
+.progress-container{
+    width: 200px;
+    height: 10px;
+    background-color: gray;
+    overflow: hidden
+}
+
+.progress-bar{
+    height: 100%;
+    background-color: green;
+    transition: width 0.3s ease
+}
